@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <div id="cart-items">
+	<div class="item">Milk 1 l.<span class="qty">x 2</span></div>
+	<div class="item">Cola 1.5 l. <span class="qty">x 1</span></div>
+	<div class="item">Bread<span class="qty">x 2</span></div>
+	<div class="item">Cheese<span class="qty">x 1</span></div>
+	<div class="item">Chocolate bar<span class="qty">x 3</span></div>
+</div>
+<script>
+	var myEl = document.getElementById("Chocolate bar");
+	var myEl2 = document.createElement("Canned Fish");
+	myEl2.innerHTML = "replaced!";
+	myEl.parentNode.replaceChild(myEl, myEl2);
+</script>
+</body>/
+</html>
+
